@@ -1,13 +1,13 @@
 <h1 align="center">Hi 👋, I'm Omar BOUKHERYS</h1>
-<h3 align="center">A passionate Data scientist</h3>
+<h3 align="center">A passionate Data scientist from Morocco</h3>
 
 - 🔭 I’m currently working on **Data science and Artificial Intelligence projects**
 
-- 🌱 I’m currently learning **everything related to Data Science, Statistical learing, Applied mathematics, nlp**
+- 🌱 I’m currently learning everything related to **Data Science, Statistical learing, Applied mathematics, nlp, Generative AI**
 
 - 👯 I’m looking to collaborate on **Data Science projects**
 
-- 📝 I regularly write articles on [Data Science, Artificial Intelligence, nlp](Data Science, Artificial Intelligence, nlp)
+- 📝 I regularly write articles on **Data Science, Artificial Intelligence, nlp**
 
 - 💬 Ask me about **Data Science, Statistical learing**
 
