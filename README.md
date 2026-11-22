@@ -1,12 +1,59 @@
 # Omar Boukherys
 
-**Data scientist · State engineer in statistics · Morocco**
+**Senior Data Scientist · State Engineer in Statistics · Morocco**
 
-I build machine learning models with a statistician's habits: look hard at the data first, validate honestly, and report uncertainty instead of hiding it.
-I also fix bugs in the Python libraries I use every day.
+I take data work from the first statistical question all the way to production: machine learning pipelines, LLM applications that cite their sources, streaming data platforms, and the cloud infrastructure underneath.
+Much of my work focuses on banking: fraud detection and regulatory compliance.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Omar%20Boukherys-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/omar-boukherys-a891191b2)
 [![Email](https://img.shields.io/badge/Email-omarboukheryspro%40gmail.com-D14836?logo=gmail&logoColor=white)](mailto:omarboukheryspro@gmail.com)
+
+---
+
+## What I do
+
+| | |
+|---|---|
+| **Statistics & machine learning** | Modeling, validation design, imbalanced data, uncertainty. Models trained, registered, deployed and monitored, not left in a notebook. |
+| **LLM applications** | Retrieval-augmented assistants with sourced answers, tool-using agents, voice bots, guardrails and evaluation. |
+| **Data engineering** | Batch and streaming pipelines, lakehouses, orchestration, data quality and reconciliation. |
+| **Cloud & operations** | AWS, Azure and GCP, infrastructure as code, Kubernetes, monitoring and incident response. |
+
+## Featured projects
+
+### Banking & fraud
+
+| Project | What it shows |
+|---|---|
+| [**FraudStream Platform**](https://github.com/omarboukherys/fraudstream-platform) | Real-time bank fraud detection at scale: Kafka, Spark Structured Streaming in Scala with per-customer state, Cassandra, Airflow/PySpark, BigQuery and Kubernetes, plus an agent that investigates each alert with evidence and an audit trail. |
+| [**SageMaker MLOps pipeline**](https://github.com/omarboukherys/aws-sagemaker-mlops-pipeline) | XGBoost on imbalanced fraud data, Model Registry, real-time endpoint and Model Monitor on AWS. |
+| [**Real-time ML inference**](https://github.com/omarboukherys/aws-realtime-ml-inference) | Fully serverless scoring: Kinesis, Lambda, a SageMaker XGBoost endpoint and SNS alerts on suspicious transactions. |
+| [**Compliance assistant on Azure**](https://github.com/omarboukherys/assistant-conformite-azure) | Helps bank advisors find sourced answers in Moroccan laws 31-08 and 103-12, in French or Arabic. Azure AI Search, Microsoft Foundry, and a Power BI report with row-level security. |
+| [**Regulatory assistant for bank advisors**](https://github.com/omarboukherys/assistant-reglementaire-ia) | A Power Apps app backed by Amazon Bedrock that answers regulatory questions from official texts, citing document and page. |
+
+### Data platforms
+
+| Project | What it shows |
+|---|---|
+| [**ADF → Airflow 3 migration**](https://github.com/omarboukherys/adf-to-astronomer-migration) | A daily Azure Blob → Snowflake load migrated from Azure Data Factory to Airflow 3 on Astronomer with dbt. Both orchestrators loaded the same 90 files: 11 of 11 reconciliation checks pass, reruns are idempotent and every row traces back to its source file. |
+| [**Morocco Data Platform**](https://github.com/omarboukherys/de_project) | Open-source platform on weather and air quality for 12 Moroccan cities: NiFi, S3 storage, Spark, Dremio, dbt, Airflow, Prometheus/Grafana and OpenMetadata. *In progress.* |
+
+### LLM agents & assistants
+
+| Project | What it shows |
+|---|---|
+| [**Bedrock RAG assistant**](https://github.com/omarboukherys/aws-bedrock-rag-assistant) | Answers with citations over complex PDFs (financial reports, tables). Layout-aware parsing with Docling; S3 Vectors chosen over OpenSearch Serverless for about 90% lower cost on small and medium corpora. |
+| [**Voice agent on AWS**](https://github.com/omarboukherys/aws-voice-agent) | Books appointments and answers FAQs, built two ways: a web voice pipeline (Transcribe, Bedrock, Polly) and a real phone bot (Amazon Connect, Lex), with Bedrock Guardrails. |
+| [**IT support agent + ServiceNow**](https://github.com/omarboukherys/aws-support-agent-servicenow) | A Lex bot and a Bedrock AgentCore agent sharing one TypeScript backend that creates and tracks ServiceNow incidents. |
+| [**Mira**](https://github.com/omarboukherys/mira-companion) | Multi-user conversational agent built with LangGraph: routing, short- and long-term memory (SQLite, Qdrant), image generation, text-to-speech, web and Telegram interfaces. |
+
+### Software engineering & operations
+
+| Project | What it shows |
+|---|---|
+| [**Smart Checkout**](https://github.com/omarboukherys/smart-checkout-ai) | Omnichannel checkout as event-driven microservices: Java 21, Spring Boot, Kafka, PostgreSQL, MongoDB. Saga with transactional outbox, hexagonal architecture, idempotent APIs, and an assistant that reviews suspicious payments while a human decides. |
+| [**Production Monitoring Lab**](https://github.com/omarboukherys/prod-monitoring-lab) | A simulated production environment: Prometheus, Grafana, Alertmanager, Elasticsearch and Kibana, batch SLA tracking, injected incidents, runbooks and automatic triage. |
+| [**UiPath platform on AWS**](https://github.com/omarboukherys/uipath-aws-platform) | Terraform for an automation platform on AWS: three-tier VPC across three availability zones, remote state, robot scaling. *In progress.* |
 
 ## Open-source contributions
 
@@ -16,24 +63,20 @@ I also fix bugs in the Python libraries I use every day.
 | [DSPy](https://github.com/stanfordnlp/dspy) | `Evaluate`'s JSON export now handles dates and enums (including as dictionary keys) and `Prediction` / `Example` values, and never leaves a half-written file. [#10797](https://github.com/stanfordnlp/dspy/pull/10797) | ![PR state](https://img.shields.io/github/pulls/detail/state/stanfordnlp/dspy/10797) |
 | [scikit-learn](https://github.com/scikit-learn/scikit-learn) | Showed that `LinearDiscriminantAnalysis` gives different results with the `svd` and `lsqr` / `eigen` solvers when custom priors are set, and proposed two fixes. [#35254](https://github.com/scikit-learn/scikit-learn/issues/35254) | ![Issue state](https://img.shields.io/github/issues/detail/state/scikit-learn/scikit-learn/35254) |
 
-## What I work with
+## Toolbox
 
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
-
-**Strengths:** statistical modeling, validation design, feature engineering, distribution shift, uncertainty quantification.
+| | |
+|---|---|
+| **Languages** | Python · SQL · Scala · Java · TypeScript |
+| **ML & statistics** | scikit-learn · XGBoost · PyTorch · TensorFlow · pandas · Amazon SageMaker |
+| **LLM stack** | LangGraph · LangChain · Amazon Bedrock · Azure AI Search · Microsoft Foundry · Gemini · Groq · Qdrant · LiteLLM · DSPy |
+| **Data** | Spark · Kafka · Airflow · dbt · Snowflake · BigQuery · Cassandra · PostgreSQL · MongoDB · NiFi · Dremio |
+| **Cloud & DevOps** | AWS · Azure · GCP · Terraform · Kubernetes · Docker · GitHub Actions |
+| **Monitoring & BI** | Prometheus · Grafana · Elasticsearch · Kibana · Power BI · Power Apps |
 
 ## Right now
 
 - Competing on Kaggle in the **NFL Big Data Bowl 2027**.
-- Looking for real bugs to fix in Python data libraries.
-- Open to collaborating on data science projects.
+- Building the Morocco Data Platform and the UiPath platform on AWS.
+- Fixing real bugs in the Python data libraries I use.
+- Open to collaborations and interesting data problems.
