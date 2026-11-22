@@ -1,22 +1,39 @@
-<h1 align="center">Hi 👋, I'm Omar BOUKHERYS</h1>
-<h3 align="center">A passionate Data scientist from Morocco</h3>
+# Omar Boukherys
 
-- 🔭 I’m currently working on **Data science and Artificial Intelligence projects**
+**Data scientist · State engineer in statistics · Morocco**
 
-- 🌱 I’m currently learning everything related to **Data Science, Statistical learing, Applied mathematics, nlp, Generative AI**
+I build machine learning models with a statistician's habits: look hard at the data first, validate honestly, and report uncertainty instead of hiding it.
+I also fix bugs in the Python libraries I use every day.
 
-- 👯 I’m looking to collaborate on **Data Science projects**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Omar%20Boukherys-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/omar-boukherys-a891191b2)
+[![Email](https://img.shields.io/badge/Email-omarboukheryspro%40gmail.com-D14836?logo=gmail&logoColor=white)](mailto:omarboukheryspro@gmail.com)
 
-- 📝 I regularly write articles on **Data Science, Artificial Intelligence, nlp**
+## Open-source contributions
 
-- 💬 Ask me about **Data Science, Statistical learing**
+| Project | What I did | Status |
+|---|---|---|
+| [LiteLLM](https://github.com/BerriAI/litellm) | Gemini batch embeddings are now billed from Google's own usage data, so image, video and audio inputs are no longer counted as free. [#49682](https://github.com/BerriAI/litellm/pull/49682) | ![PR state](https://img.shields.io/github/pulls/detail/state/BerriAI/litellm/49682) |
+| [DSPy](https://github.com/stanfordnlp/dspy) | `Evaluate`'s JSON export now handles dates and enums (including as dictionary keys) and `Prediction` / `Example` values, and never leaves a half-written file. [#10797](https://github.com/stanfordnlp/dspy/pull/10797) | ![PR state](https://img.shields.io/github/pulls/detail/state/stanfordnlp/dspy/10797) |
+| [scikit-learn](https://github.com/scikit-learn/scikit-learn) | Showed that `LinearDiscriminantAnalysis` gives different results with the `svd` and `lsqr` / `eigen` solvers when custom priors are set, and proposed two fixes. [#35254](https://github.com/scikit-learn/scikit-learn/issues/35254) | ![Issue state](https://img.shields.io/github/issues/detail/state/scikit-learn/scikit-learn/35254) |
 
-- 📫 How to reach me **omarboukheryspro@gmail.com**
+## What I work with
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/omar-boukherys-a891191b2" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="omar-boukherys-a891191b2" height="30" width="40" /></a>
-</p>
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
+**Strengths:** statistical modeling, validation design, feature engineering, distribution shift, uncertainty quantification.
+
+## Right now
+
+- Competing on Kaggle in the **NFL Big Data Bowl 2027**.
+- Looking for real bugs to fix in Python data libraries.
+- Open to collaborating on data science projects.
