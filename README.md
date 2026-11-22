@@ -73,10 +73,3 @@ Much of my work focuses on banking: fraud detection and regulatory compliance.
 | **Data** | Spark · Kafka · Airflow · dbt · Snowflake · BigQuery · Cassandra · PostgreSQL · MongoDB · NiFi · Dremio |
 | **Cloud & DevOps** | AWS · Azure · GCP · Terraform · Kubernetes · Docker · GitHub Actions |
 | **Monitoring & BI** | Prometheus · Grafana · Elasticsearch · Kibana · Power BI · Power Apps |
-
-## Right now
-
-- Competing on Kaggle in the **NFL Big Data Bowl 2027**.
-- Building the Morocco Data Platform and the UiPath platform on AWS.
-- Fixing real bugs in the Python data libraries I use.
-- Open to collaborations and interesting data problems.
